@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    width: 100%;
+}
+header{
+    height: 300px;
+    text-align: center;
+    padding: 50px;
+    background-image: url("https://sozaino.site/wp-content/uploads/2022/02/hoshi59-.png");
+    background-size: cover;
+}
+header h1{
+    font-size: 3em;
+}
+header p{
+    line-height: 0em;
+}
+ul{
+    margin-top: 100px;
+    padding-inline-start: 0px;
+    margin: 40px;
+}
+ul li{
+    list-style: none;
+    font-size: 30px;
+    transition: all 1s;
+    line-height: 1.75em;
+}
+ul li .detailOfLink{
+    font-size: 20px;
+    color: #555;
+}
+ul li:hover{
+    font-size: 45px;
+    line-height: 1em;
+}
+ul a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    border-left: 0px solid #aaf;
+    transition: all 1s;
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+ul a:hover{
+    background-color: #eee;
+    border-left: 10px solid #aaf;
+    padding: 35px;
+}
+footer{
+    height: 100px;
+    padding: 20px;
+    background-color: #aaf;
+}
+footer p{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 25px;
+}
+.news{
+    background-color: #ddd;
+    margin: 20px 0;
+}
+.news h1{
+   display: inline-block;
+   margin-left: 30px;
+}
+#slideBar{
+    margin-left: 40px;
+    text-align: right;
+    position: relative;
+}
+
+hr{
+    margin: 0 20px;
+}
+@media (max-width: 767px){
+    ul{
+        margin-top: 100px;
+        padding-inline-start: 0px;
+        margin: 20px;
+    }
+    ul li{
+        list-style: none;
+        font-size: 20px;
+        transition: all 1s;
+        line-height: 1.75em;
+    }
+    ul li:hover{
+        font-size: 30px;
+        line-height: 1em;
+    }
+    ul a{
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+        border-left: 0px solid #aaf;
+        transition: all 1s;
+        width: 100%;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    ul a:hover{
+        background-color: #eee;
+        border-left: 10px solid #aaf;
+        padding: 20px;
+    }
+    ul li .detailOfLink{
+        font-size: 15px;
+        color: #555;
+    }
+    footer{
+        height: 50px;
+        padding: 30px;
+        background-color: #aaf;
+    }
+    footer p{
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+}
