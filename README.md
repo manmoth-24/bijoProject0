@@ -48,8 +48,9 @@ prot 1.0.0 : index.htmlの大まかなレイアウトを決定
 prot 1.1.0 : index.htmlのCSSを登録、題名が大きくなるなど  
 prot 1.1.1 : 枝分かれした投票等のリンクを作成  
 prot 1.2.0 : index.htmlのニュースがスライドするようにした。index.htmlは間もなく完成  
-prot 1.2.0A : READMEを書いた。（試案）  
-prot 1.2.0B : READMEの改行不良の原因を調べる  
-prot 1.2.1 : READMEの開業を直す  
+prot 1.3.0 : READMEを書いた。（試案）  
+prot 1.3.0Z : READMEの改行不良の原因を調べる  
+prot 1.3.1 : READMEの開業を直す  
+prot 1.3.2 : READMEの微調整  
 
 ***
